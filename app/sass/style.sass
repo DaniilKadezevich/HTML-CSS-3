@@ -1,0 +1,312 @@
+@import "fonts"
+@import "vars"
+html, body
+	height: 100%
+	width: 100%
+body
+	font-size: 100%
+	padding: 0
+	margin: 0
+ul
+	list-style-type: none
+	margin: 0
+	padding: 0
+a 
+	text-decoration: none
+h1, h2, h3, h5
+	font-size: 55px
+	line-height: 55px
+	letter-spacing: -1px
+	font-weight: 700
+	color: #fff
+	font-family: $title
+	margin-bottom: 30px
+h1.animated
+	animation-duration: 2s
+h2
+	font-size: 40px
+	line-height: 40px
+	margin-bottom: 10px
+h3
+	font-size: 16px
+	color: #231f20
+	letter-spacing: 0
+	line-height: 30px
+	margin-top: 20px
+	margin-bottom: 10px
+h5
+	font-size: 14px
+	margin-bottom: 10px
+	margin-top: 10px
+	font-weight: 500
+	line-height: 1.1
+	letter-spacing: 0
+.margin-30
+	margin-bottom: 30px
+	padding: 10px 0 20px
+	border-bottom: 1px dotted #d9d9d9
+.margin-40
+	margin-bottom: 40px
+.margin-50
+	margin-bottom: 50px
+.shadow
+	box-shadow: 0px 0px 12px rgba(41,46,50,0.6)
+	z-index: 1
+.text-center
+	text-align: center
+.big-t, .small-t
+	font-size: 21px
+	line-height: 26px
+	color: #fff
+	font-weight: 400
+	font-family: $text
+	margin-bottom: 40px
+	animation-delay: 0.5s
+.small-t
+	color: $grey
+	font-size: 17px
+	line-height: 22px
+	margin-bottom: 10px
+.button-accent, .button-white
+	background-color: $accent
+	color: #fff
+	font-size: 13px
+	line-height: 1.33
+	padding: 22px 30px
+	font-weight: 400
+	letter-spacing: 1px
+	text-transform: uppercase
+	font-family: $title
+	border-radius: 4px
+	transition: all 0.35s ease-in-out
+	display: inline-block
+	cursor: pointer
+	animation-delay: 1.4s
+	&:hover
+		background-color:  #B0E0E6	
+.button-white
+	background-color: #fff
+	margin-right: 30px
+	margin-left: 24.5px
+	color: $black
+	animation-delay: 1s
+	&:hover
+		background-color: #DCDCDC
+.header
+	position: relative
+	height: 100vh
+	background-image: url('../img/header-bg.jpg')
+	background-size: cover
+	background-position: center
+	padding: 20px 10px 60px 10px
+	.top-menu
+		display: -webkit-flex
+		display: -moz-flex
+		display: -ms-flex
+		display: -o-flex
+		display: flex
+		justify-content: space-between
+		ul
+			list-style-type: none
+			padding: 0
+			margin: 0
+			display: inline-block
+			li
+				display: inline-block
+				margin-top: 9px
+				margin-right: 10px
+				a
+					color: #fff
+					font-size: 14px
+					letter-spacing: 1px
+					font-family: $title
+					text-decoration: none
+					display: inline-block
+	.header-comp
+		position: absolute
+		width: 100%
+		bottom: 12%
+		.mouse
+			height: 50px
+			width: 30px
+			border: 2px solid #fff	
+			border-radius: 16px
+			margin-top: 40px
+			display: inline-block
+			.scroll	
+				background-color: #fff
+				border-radius: 10px
+				height: 10px
+				width: 4px
+				display: inline-block
+				margin: 0 auto
+				margin-top: 5px
+.be-the-first
+	background-image: url('../img/be-the-first-bg.jpg')
+	background-size: cover
+	background-position: center
+	background-attachment: fixed
+	padding: 200px 0
+	.big-t
+		margin-bottom: 20px
+	.iphone
+		height: 200px
+		position: relative
+		width: 100%
+		margin-top: 30px
+		img
+			width: 100%
+			max-width: 440px
+.main-info
+	padding: 200px 0
+	hr
+		width: 100%
+		border: 2px solid
+	.lane-purple
+		color: #6d3f96
+	.lane-blue
+		color: #70cbce
+	.lane-orange
+		color: #fdc05d
+.pricing
+	padding: 160px 0
+	background-color: $accent
+	.small-t
+		color: #fff
+	.pricing-cont
+		padding: 0
+		transition: all 0.15s ease-in-out
+		border-radius: 10px 10px 0 0
+		&:hover
+			margin-top: -10px
+			.el-2
+				background-color: #2E2E2E
+		br
+			line-height: 20px
+		ul
+			text-align: center
+			font-family: $title
+			.el-1
+				background-color: #231f20
+				border-radius: 10px 10px 0 0
+				padding-left: 20px
+				padding-right: 20px
+				padding: 10px
+			.el-2
+				padding: 20px
+				background-color: $black
+				font-size: 32px
+				font-weight: 700
+				color: #fff
+				transition: all 0.7s ease-in-out
+				span
+					font-weight: 300
+					color: $grey
+					font-size: 85%
+			.el-3
+				padding: 20px
+				font-weight: 300
+				color: $grey
+				font-size: 13px
+				background-color: #fff
+				border-bottom: 1px dotted #E8EAEA
+			.el-4, .el-5, .el-6
+				padding: 20px
+				padding-top: 12px
+				padding-bottom: 15px
+				background-color: #fff
+				font-weight: 700
+				border-bottom: 1px dotted #E8EAEA
+				font-size: 14px
+			.el-7
+				padding: 20px
+				padding-top: 17px
+				background-color: #fff
+				cursor: pointer
+				transition: all 0.35s ease-in-out
+				&:hover
+					background-color: #E8EAEA
+				a
+					text-decoration: none
+					color: $accent
+					text-transform: uppercase
+					font-size: 14px
+					letter-spacing: 1px
+					font-weight: 700
+.get-the-invite
+	padding: 160px 0
+	background-color: #f2f2f2
+	.fa
+		color: #4ec3cd
+		font-size: 22px
+		height: 60px
+		width: 60px
+		border: 2px solid #4ec3cd
+		border-radius: 50%	
+		padding-top: 16px
+		margin-bottom: 40px
+	h2
+		color: #231f20
+		margin-top: 0
+		margin-bottom: 10px
+		letter-spacing: 0
+	.small-t
+		color: #231f20
+		margin: 0 0	10px
+	.form
+		margin-top: 20px
+		font-size: 15px
+		border-radius: 4px
+		box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset
+		color: #929496
+		padding: 20px 12px
+		background-color: #fff
+		line-height: 1.43
+		height: 60px
+		font-family: $title
+		text-align: left
+		margin-bottom: 15px
+.news
+	padding: 80px 0
+
+	img 	
+		padding-left: 20px
+		display: inline-block
+		vertical-align: top
+	.news-cont
+		display: inline-block
+		.small-t
+			color: #231f20
+			margin-bottom: 0
+		p
+			color: #231f20
+			font-size: 14.45px	
+			font-family: $title
+			font-style: italic
+.footer
+	padding: 40px 0
+	background-color: #fff
+	ul
+		font-size: 14px
+		color: #333
+		font-family: $title
+		margin-bottom: 10px
+		margin-left: -5px
+		li
+			padding-right: 5px
+			padding-left: 5px
+			display: inline-block
+			a
+				color: #333
+				text-decoration: none
+				transition: all 0.35s ease-in-out
+				&:hover
+					color: $grey
+	.small-t
+		font-size: 14.45px
+		font-family: $title	
+		text-align: right
+
+
+
+

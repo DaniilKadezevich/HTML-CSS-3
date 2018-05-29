@@ -1,0 +1,333 @@
+@font-face {
+  font-family: "fontawesome";
+  src: url("../fonts/fontawesome-webfont.ttf"); }
+
+html, body {
+  height: 100%;
+  width: 100%; }
+
+body {
+  font-size: 100%;
+  padding: 0;
+  margin: 0; }
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0; }
+
+a {
+  text-decoration: none; }
+
+h1, h2, h3, h5 {
+  font-size: 55px;
+  line-height: 55px;
+  letter-spacing: -1px;
+  font-weight: 700;
+  color: #fff;
+  font-family: Montserrat, sans-serif;
+  margin-bottom: 30px; }
+
+h1.animated {
+  animation-duration: 2s; }
+
+h2 {
+  font-size: 40px;
+  line-height: 40px;
+  margin-bottom: 10px; }
+
+h3 {
+  font-size: 16px;
+  color: #231f20;
+  letter-spacing: 0;
+  line-height: 30px;
+  margin-top: 20px;
+  margin-bottom: 10px; }
+
+h5 {
+  font-size: 14px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  font-weight: 500;
+  line-height: 1.1;
+  letter-spacing: 0; }
+
+.margin-30 {
+  margin-bottom: 30px;
+  padding: 10px 0 20px;
+  border-bottom: 1px dotted #d9d9d9; }
+
+.margin-40 {
+  margin-bottom: 40px; }
+
+.margin-50 {
+  margin-bottom: 50px; }
+
+.shadow {
+  box-shadow: 0px 0px 12px rgba(41, 46, 50, 0.6);
+  z-index: 1; }
+
+.text-center {
+  text-align: center; }
+
+.big-t, .small-t {
+  font-size: 21px;
+  line-height: 26px;
+  color: #fff;
+  font-weight: 400;
+  font-family: Raleway, sans-serif;
+  margin-bottom: 40px;
+  animation-delay: 0.5s; }
+
+.small-t {
+  color: #929496;
+  font-size: 17px;
+  line-height: 22px;
+  margin-bottom: 10px; }
+
+.button-accent, .button-white {
+  background-color: #70cbce;
+  color: #fff;
+  font-size: 13px;
+  line-height: 1.33;
+  padding: 22px 30px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-family: Montserrat, sans-serif;
+  border-radius: 4px;
+  transition: all 0.35s ease-in-out;
+  display: inline-block;
+  cursor: pointer;
+  animation-delay: 1.4s; }
+  .button-accent:hover, .button-white:hover {
+    background-color: #B0E0E6; }
+
+.button-white {
+  background-color: #fff;
+  margin-right: 30px;
+  margin-left: 24.5px;
+  color: #231f20;
+  animation-delay: 1s; }
+  .button-white:hover {
+    background-color: #DCDCDC; }
+
+.header {
+  position: relative;
+  height: 100vh;
+  background-image: url("../img/header-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 20px 10px 60px 10px; }
+  .header .top-menu {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: space-between; }
+    .header .top-menu ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+      display: inline-block; }
+      .header .top-menu ul li {
+        display: inline-block;
+        margin-top: 9px;
+        margin-right: 10px; }
+        .header .top-menu ul li a {
+          color: #fff;
+          font-size: 14px;
+          letter-spacing: 1px;
+          font-family: Montserrat, sans-serif;
+          text-decoration: none;
+          display: inline-block; }
+  .header .header-comp {
+    position: absolute;
+    width: 100%;
+    bottom: 12%; }
+    .header .header-comp .mouse {
+      height: 50px;
+      width: 30px;
+      border: 2px solid #fff;
+      border-radius: 16px;
+      margin-top: 40px;
+      display: inline-block; }
+      .header .header-comp .mouse .scroll {
+        background-color: #fff;
+        border-radius: 10px;
+        height: 10px;
+        width: 4px;
+        display: inline-block;
+        margin: 0 auto;
+        margin-top: 5px; }
+
+.be-the-first {
+  background-image: url("../img/be-the-first-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  padding: 200px 0; }
+  .be-the-first .big-t {
+    margin-bottom: 20px; }
+  .be-the-first .iphone {
+    height: 200px;
+    position: relative;
+    width: 100%;
+    margin-top: 30px; }
+    .be-the-first .iphone img {
+      width: 100%;
+      max-width: 440px; }
+
+.main-info {
+  padding: 200px 0; }
+  .main-info hr {
+    width: 100%;
+    border: 2px solid; }
+  .main-info .lane-purple {
+    color: #6d3f96; }
+  .main-info .lane-blue {
+    color: #70cbce; }
+  .main-info .lane-orange {
+    color: #fdc05d; }
+
+.pricing {
+  padding: 160px 0;
+  background-color: #70cbce; }
+  .pricing .small-t {
+    color: #fff; }
+  .pricing .pricing-cont {
+    padding: 0;
+    transition: all 0.15s ease-in-out;
+    border-radius: 10px 10px 0 0; }
+    .pricing .pricing-cont:hover {
+      margin-top: -10px; }
+      .pricing .pricing-cont:hover .el-2 {
+        background-color: #2E2E2E; }
+    .pricing .pricing-cont br {
+      line-height: 20px; }
+    .pricing .pricing-cont ul {
+      text-align: center;
+      font-family: Montserrat, sans-serif; }
+      .pricing .pricing-cont ul .el-1 {
+        background-color: #231f20;
+        border-radius: 10px 10px 0 0;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding: 10px; }
+      .pricing .pricing-cont ul .el-2 {
+        padding: 20px;
+        background-color: #231f20;
+        font-size: 32px;
+        font-weight: 700;
+        color: #fff;
+        transition: all 0.7s ease-in-out; }
+        .pricing .pricing-cont ul .el-2 span {
+          font-weight: 300;
+          color: #929496;
+          font-size: 85%; }
+      .pricing .pricing-cont ul .el-3 {
+        padding: 20px;
+        font-weight: 300;
+        color: #929496;
+        font-size: 13px;
+        background-color: #fff;
+        border-bottom: 1px dotted #E8EAEA; }
+      .pricing .pricing-cont ul .el-4, .pricing .pricing-cont ul .el-5, .pricing .pricing-cont ul .el-6 {
+        padding: 20px;
+        padding-top: 12px;
+        padding-bottom: 15px;
+        background-color: #fff;
+        font-weight: 700;
+        border-bottom: 1px dotted #E8EAEA;
+        font-size: 14px; }
+      .pricing .pricing-cont ul .el-7 {
+        padding: 20px;
+        padding-top: 17px;
+        background-color: #fff;
+        cursor: pointer;
+        transition: all 0.35s ease-in-out; }
+        .pricing .pricing-cont ul .el-7:hover {
+          background-color: #E8EAEA; }
+        .pricing .pricing-cont ul .el-7 a {
+          text-decoration: none;
+          color: #70cbce;
+          text-transform: uppercase;
+          font-size: 14px;
+          letter-spacing: 1px;
+          font-weight: 700; }
+
+.get-the-invite {
+  padding: 160px 0;
+  background-color: #f2f2f2; }
+  .get-the-invite .fa {
+    color: #4ec3cd;
+    font-size: 22px;
+    height: 60px;
+    width: 60px;
+    border: 2px solid #4ec3cd;
+    border-radius: 50%;
+    padding-top: 16px;
+    margin-bottom: 40px; }
+  .get-the-invite h2 {
+    color: #231f20;
+    margin-top: 0;
+    margin-bottom: 10px;
+    letter-spacing: 0; }
+  .get-the-invite .small-t {
+    color: #231f20;
+    margin: 0 0	10px; }
+  .get-the-invite .form {
+    margin-top: 20px;
+    font-size: 15px;
+    border-radius: 4px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+    color: #929496;
+    padding: 20px 12px;
+    background-color: #fff;
+    line-height: 1.43;
+    height: 60px;
+    font-family: Montserrat, sans-serif;
+    text-align: left;
+    margin-bottom: 15px; }
+
+.news {
+  padding: 80px 0; }
+  .news img {
+    padding-left: 20px;
+    display: inline-block;
+    vertical-align: top; }
+  .news .news-cont {
+    display: inline-block; }
+    .news .news-cont .small-t {
+      color: #231f20;
+      margin-bottom: 0; }
+    .news .news-cont p {
+      color: #231f20;
+      font-size: 14.45px;
+      font-family: Montserrat, sans-serif;
+      font-style: italic; }
+
+.footer {
+  padding: 40px 0;
+  background-color: #fff; }
+  .footer ul {
+    font-size: 14px;
+    color: #333;
+    font-family: Montserrat, sans-serif;
+    margin-bottom: 10px;
+    margin-left: -5px; }
+    .footer ul li {
+      padding-right: 5px;
+      padding-left: 5px;
+      display: inline-block; }
+      .footer ul li a {
+        color: #333;
+        text-decoration: none;
+        transition: all 0.35s ease-in-out; }
+        .footer ul li a:hover {
+          color: #929496; }
+  .footer .small-t {
+    font-size: 14.45px;
+    font-family: Montserrat, sans-serif;
+    text-align: right; }
